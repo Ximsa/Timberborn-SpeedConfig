@@ -19,26 +19,12 @@ namespace SpeedConfig
             {
                 throw new ArgumentException("Unable to parse speed value for " + button.name);
             }
-            string updatedName = "Speed";
-            switch (timeSpeed)
-            {
-                case 1:
-                    updatedName += SettingsInstance.settings.Speed1Setting.Value;
-                    break;
-                case 3:
-                    updatedName += SettingsInstance.settings.Speed2Setting.Value;
-                    break;
-                case 7:
-                    updatedName += SettingsInstance.settings.Speed3Setting.Value;
-                    break;
-                case 0:
-                default:
-                    updatedName = button.name;
-                    break;
-            }
-            button.name = updatedName;
+            button.name = "Speed" + new Dictionary<int,int> (){ 
+                { 1, SettingsInstance.settings.Speed1Setting.Value },
+                { 3, SettingsInstance.settings.Speed2Setting.Value },
+                { 7, SettingsInstance.settings.Speed3Setting.Value }}
+            .GetValueOrDefault(timeSpeed,timeSpeed);
             return true;
         }
-
     }
 }
