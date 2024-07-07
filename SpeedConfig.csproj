@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>G:\GOG Games\Timberborn\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Bindito.Core">
+      <HintPath>G:\GOG Games\Timberborn\Timberborn_Data\Managed\Bindito.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Bindito.Unity">
+      <HintPath>G:\GOG Games\Timberborn\Timberborn_Data\Managed\Bindito.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="ModSettings">
+      <HintPath>..\..\..\Timberborn\Mods\ModSettings\Scripts\ModSettings.dll</HintPath>
+    </Reference>
+    <Reference Include="Timberborn.InputSystemUI">
+      <HintPath>G:\GOG Games\Timberborn\Timberborn_Data\Managed\Timberborn.InputSystemUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Timberborn.Modding">
+      <HintPath>G:\GOG Games\Timberborn\Timberborn_Data\Managed\Timberborn.Modding.dll</HintPath>
+    </Reference>
+    <Reference Include="Timberborn.ModdingUI">
+      <HintPath>G:\GOG Games\Timberborn\Timberborn_Data\Managed\Timberborn.ModdingUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Timberborn.ModManagerScene">
+      <HintPath>G:\GOG Games\Timberborn\Timberborn_Data\Managed\Timberborn.ModManagerScene.dll</HintPath>
+    </Reference>
+    <Reference Include="Timberborn.SettingsSystem">
+      <HintPath>G:\GOG Games\Timberborn\Timberborn_Data\Managed\Timberborn.SettingsSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Timberborn.SingletonSystem">
+      <HintPath>G:\GOG Games\Timberborn\Timberborn_Data\Managed\Timberborn.SingletonSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Timberborn.TimeSpeedButtonSystem">
+      <HintPath>G:\GOG Games\Timberborn\Timberborn_Data\Managed\Timberborn.TimeSpeedButtonSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>G:\GOG Games\Timberborn\Timberborn_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>G:\GOG Games\Timberborn\Timberborn_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
