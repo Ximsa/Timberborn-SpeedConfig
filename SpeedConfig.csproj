@@ -15,7 +15,7 @@
       <HintPath>G:\GOG Games\Timberborn\Timberborn_Data\Managed\Bindito.Unity.dll</HintPath>
     </Reference>
     <Reference Include="ModSettings">
-      <HintPath>..\..\..\Timberborn\Mods\ModSettings\Scripts\ModSettings.dll</HintPath>
+      <HintPath>..\..\Timberborn\Mods\ModSettings\Scripts\ModSettings.dll</HintPath>
     </Reference>
     <Reference Include="Timberborn.InputSystemUI">
       <HintPath>G:\GOG Games\Timberborn\Timberborn_Data\Managed\Timberborn.InputSystemUI.dll</HintPath>

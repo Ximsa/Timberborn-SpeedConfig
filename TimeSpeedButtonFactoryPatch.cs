@@ -15,8 +15,7 @@ namespace SpeedConfig
         [System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Nicht verwendete private Member entfernen", Justification = "Harmony")]
         static bool CreatePrefix(ref Button button)
         {
-            int timeSpeed;
-            if (!int.TryParse(button.name.Replace("Speed", ""), out timeSpeed))
+            if (!int.TryParse(button.name.Replace("Speed", ""), out int timeSpeed))
             {
                 throw new ArgumentException("Unable to parse speed value for " + button.name);
             }
@@ -25,15 +24,12 @@ namespace SpeedConfig
             {
                 case 1:
                     updatedName += SettingsInstance.settings.Speed1Setting.Value;
-                    Console.WriteLine(1);
                     break;
                 case 3:
                     updatedName += SettingsInstance.settings.Speed2Setting.Value;
-                    Console.WriteLine(2);
                     break;
                 case 7:
                     updatedName += SettingsInstance.settings.Speed3Setting.Value;
-                    Console.WriteLine(3);
                     break;
                 case 0:
                 default:
