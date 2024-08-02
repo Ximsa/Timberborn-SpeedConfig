@@ -11,6 +11,5 @@ namespace SpeedConfig
         {
             containerDefinition.Bind<Settings>().AsSingleton();
         }
-
     }
 }

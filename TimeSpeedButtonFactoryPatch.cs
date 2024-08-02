@@ -3,7 +3,6 @@ using HarmonyLib;
 using Timberborn.TimeSpeedButtonSystem;
 using UnityEngine.UIElements;
 using System.Collections.Generic;
-using ModSettings;
 
 namespace SpeedConfig
 {
