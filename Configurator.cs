@@ -9,7 +9,7 @@ namespace SpeedConfig
 
         public void Configure(IContainerDefinition containerDefinition)
         {
-            containerDefinition.Bind<Settings>().AsSingleton();
+            /*containerDefinition.Bind<Settings>().AsSingleton();*/
         }
     }
 }
