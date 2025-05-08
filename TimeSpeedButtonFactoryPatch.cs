@@ -19,9 +19,9 @@ namespace SpeedConfig
                 throw new ArgumentException("Unable to parse speed value for " + button.name);
             }
             button.name = "Speed" + new Dictionary<int,int> (){ 
-                { 1, 1/*SettingsInstance.settings.Speed1Setting.Value*/ },
-                { 3, 7/*SettingsInstance.settings.Speed2Setting.Value*/ },
-                { 7, 21/*SettingsInstance.settings.Speed3Setting.Value*/ }}
+                { 1, SettingsInstance.settings.Speed1Setting.Value },
+                { 3, SettingsInstance.settings.Speed2Setting.Value },
+                { 7, SettingsInstance.settings.Speed3Setting.Value }}
             .GetValueOrDefault(timeSpeed,timeSpeed);
             return true;
         }
